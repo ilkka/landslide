@@ -1,3 +1,9 @@
+landslide (0.8.2-0ubuntu2) maverick; urgency=low
+
+  * Bump release number since dependencies are now in order.
+
+ -- Ilkka Laukkanen <ilkka.s.laukkanen@gmail.com>  Fri, 07 Jan 2011 12:18:13 +0200
+
 landslide (0.8.2-0ubuntu1) unstable; urgency=low
 
   * Initial packaging of upstream release.
