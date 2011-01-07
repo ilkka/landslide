@@ -1,3 +1,51 @@
+landslide (0.8.3-0ubuntu1~1.gbped1dbe) maverick; urgency=low
+
+  ** SNAPSHOT build @ed1dbe1738879ea9e7969a00274659229a5fc59f **
+
+  [ Nicolas Perriault ]
+  * modified .gitignore
+
+  [ Olivier Verdier ]
+  * fixed bug with string comparison
+
+  [ Nicolas Perriault ]
+  * fixed a bug when first slide found contains no heading to generate
+    the presentation title
+  * added support for syntax highlighting in ReST code blocks
+  * added a clean warning when landslide has problems to decode a given
+    source file
+
+  [ Olivier Verdier ]
+  * source code highlighting with pygment using custom `sourcecode` rst
+    directive
+  * remove the closing div cleaning code (since the opening div cleaning
+    code was removed)
+
+  [ Nicolas Perriault ]
+  * fixed a bug when first slide found contains no heading to generate
+    the presentation title
+  * added a clean warning when landslide has problems to decode a given
+    source file
+
+  [ Olivier Verdier ]
+  * added alias `code-block` to `sourcecode`
+
+  [ Nicolas Perriault ]
+  * integrated standard ReST syntax highlighting support
+  * reformatted some parts of code documentation
+  * fixed js when no toc is available within the generated document
+  * fixed lack of heading level support when using restructuredText
+    format; so as a cool effect, TOC is now available in ReST based
+    presentations =)
+  * fixed code indentation in ReST example
+  * added support for ReST 'sourcecode' and 'code-blocks' directives for
+    code syntax highlighting (based on a patch by olivierverdier)
+  * fixed #13 - Bug for heading level 3 for ReST
+
+  [ Ilkka Laukkanen ]
+
+ -- Ilkka Laukkanen <ilkka.s.laukkanen@gmail.com>  Fri, 07 Jan 2011 12:31:27 +0200
+
 landslide (0.8.2-0ubuntu2) maverick; urgency=low
 
   * Bump release number since dependencies are now in order.
