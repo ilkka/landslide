@@ -16,7 +16,8 @@ Package: landslide
 Architecture: all
 Depends:
  ${misc:Depends},
- ${python:Depends}
+ ${python:Depends},
+ python-markdown
 XB-Python-Version: 2.5, 2.6, 2.7, 3.0
 Description: Generate a HTML5 slideshow from markdown or rst sources
  Generates a slideshow using the slides that power the html5-slides
