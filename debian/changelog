@@ -1,0 +1,5 @@
+landslide (0.8.2-0ubuntu1) unstable; urgency=low
+
+  * Initial packaging of upstream release.
+
+ -- Ilkka Laukkanen <ilkka.s.laukkanen@gmail.com>  Fri, 07 Jan 2011 11:56:17 +0200
