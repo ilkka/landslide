@@ -25,3 +25,6 @@ XB-Python-Version: 2.5, 2.6, 2.7, 3.0
 Description: Generate a HTML5 slideshow from markdown or rst sources
  Generates a slideshow using the slides that power the html5-slides
  presentation.
+ .
+ Note that although Landslide can generate PDF slides too, you need
+ Prince for that, which you can get here: http://www.princexml.com/
